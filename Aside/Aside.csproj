@@ -81,7 +81,28 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon6.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoABC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAvatar2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
