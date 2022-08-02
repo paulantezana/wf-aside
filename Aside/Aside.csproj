@@ -81,6 +81,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\LogoABC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserAvatar2.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Icon2.png" />
   </ItemGroup>
   <ItemGroup>
@@ -99,10 +105,10 @@
     <None Include="Resources\Icon1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LogoABC.png" />
+    <None Include="Resources\Icon7.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\UserAvatar2.png" />
+    <None Include="Resources\Icon8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
