@@ -33,8 +33,14 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.btnPanelEconomic = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             this.btnPanelRate = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.btnPanelRealTime = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.btnPanelMarket = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -61,11 +67,11 @@
             this.btnDashboard = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.aside.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.btnPanelEconomic.SuspendLayout();
             this.btnPanelRate.SuspendLayout();
+            this.btnPanelRealTime.SuspendLayout();
             this.btnPanelMarket.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -105,9 +111,9 @@
             this.panel6.Controls.Add(this.button1);
             this.panel6.Controls.Add(this.label5);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 559);
+            this.panel6.Location = new System.Drawing.Point(0, 413);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 151);
+            this.panel6.Size = new System.Drawing.Size(200, 130);
             this.panel6.TabIndex = 16;
             // 
             // label5
@@ -123,29 +129,141 @@
             // 
             // btnPanelEconomic
             // 
+            this.btnPanelEconomic.Controls.Add(this.button5);
+            this.btnPanelEconomic.Controls.Add(this.button6);
             this.btnPanelEconomic.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPanelEconomic.Location = new System.Drawing.Point(0, 497);
+            this.btnPanelEconomic.Location = new System.Drawing.Point(0, 371);
             this.btnPanelEconomic.Name = "btnPanelEconomic";
-            this.btnPanelEconomic.Size = new System.Drawing.Size(200, 30);
+            this.btnPanelEconomic.Size = new System.Drawing.Size(200, 10);
             this.btnPanelEconomic.TabIndex = 11;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 32);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(200, 32);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "              Time line";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(200, 32);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "              Calendar";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // btnPanelRate
             // 
             this.btnPanelRate.Controls.Add(this.button3);
             this.btnPanelRate.Controls.Add(this.button4);
             this.btnPanelRate.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPanelRate.Location = new System.Drawing.Point(0, 405);
+            this.btnPanelRate.Location = new System.Drawing.Point(0, 327);
             this.btnPanelRate.Name = "btnPanelRate";
-            this.btnPanelRate.Size = new System.Drawing.Size(200, 60);
+            this.btnPanelRate.Size = new System.Drawing.Size(200, 12);
             this.btnPanelRate.TabIndex = 12;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(200, 32);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "              Other";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 32);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "              Report";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // btnPanelRealTime
             // 
+            this.btnPanelRealTime.Controls.Add(this.button12);
+            this.btnPanelRealTime.Controls.Add(this.button13);
             this.btnPanelRealTime.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPanelRealTime.Location = new System.Drawing.Point(0, 363);
+            this.btnPanelRealTime.Location = new System.Drawing.Point(0, 285);
             this.btnPanelRealTime.Name = "btnPanelRealTime";
             this.btnPanelRealTime.Size = new System.Drawing.Size(200, 10);
             this.btnPanelRealTime.TabIndex = 13;
+            // 
+            // button12
+            // 
+            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(0, 32);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(200, 32);
+            this.button12.TabIndex = 7;
+            this.button12.Text = "              Time";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.Location = new System.Drawing.Point(0, 0);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(200, 32);
+            this.button13.TabIndex = 8;
+            this.button13.Text = "              News";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.UseVisualStyleBackColor = true;
             // 
             // btnPanelMarket
             // 
@@ -155,7 +273,7 @@
             this.btnPanelMarket.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPanelMarket.Location = new System.Drawing.Point(0, 243);
             this.btnPanelMarket.Name = "btnPanelMarket";
-            this.btnPanelMarket.Size = new System.Drawing.Size(200, 88);
+            this.btnPanelMarket.Size = new System.Drawing.Size(200, 10);
             this.btnPanelMarket.TabIndex = 14;
             // 
             // button9
@@ -325,9 +443,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(53, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 18);
+            this.label2.Size = new System.Drawing.Size(126, 18);
             this.label2.TabIndex = 9;
-            this.label2.Text = "MARKET - KL -2";
+            this.label2.Text = "MARKET - KL - 2";
             // 
             // panel4
             // 
@@ -335,7 +453,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(200, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(485, 749);
+            this.panel4.Size = new System.Drawing.Size(489, 749);
             this.panel4.TabIndex = 1;
             // 
             // panel5
@@ -344,7 +462,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(485, 42);
+            this.panel5.Size = new System.Drawing.Size(489, 42);
             this.panel5.TabIndex = 0;
             // 
             // button2
@@ -356,13 +474,13 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
-            this.button2.Image = global::Aside.Properties.Resources.Icon7;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(0, 81);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 32);
             this.button2.TabIndex = 10;
-            this.button2.Text = "              Settings";
+            this.button2.Text = "            Settings";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -375,13 +493,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
-            this.button1.Image = global::Aside.Properties.Resources.Icon8;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(0, 43);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 32);
             this.button1.TabIndex = 9;
-            this.button1.Text = "              Notifications";
+            this.button1.Text = "            Notifications";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -397,11 +515,11 @@
             this.btnPivot.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
             this.btnPivot.Image = ((System.Drawing.Image)(resources.GetObject("btnPivot.Image")));
             this.btnPivot.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPivot.Location = new System.Drawing.Point(0, 527);
+            this.btnPivot.Location = new System.Drawing.Point(0, 381);
             this.btnPivot.Name = "btnPivot";
             this.btnPivot.Size = new System.Drawing.Size(200, 32);
             this.btnPivot.TabIndex = 6;
-            this.btnPivot.Text = "              Pivot Points";
+            this.btnPivot.Text = "            Pivot Points";
             this.btnPivot.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPivot.UseVisualStyleBackColor = true;
             // 
@@ -417,11 +535,11 @@
             this.btnEconomic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
             this.btnEconomic.Image = ((System.Drawing.Image)(resources.GetObject("btnEconomic.Image")));
             this.btnEconomic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEconomic.Location = new System.Drawing.Point(0, 465);
+            this.btnEconomic.Location = new System.Drawing.Point(0, 339);
             this.btnEconomic.Name = "btnEconomic";
             this.btnEconomic.Size = new System.Drawing.Size(200, 32);
             this.btnEconomic.TabIndex = 5;
-            this.btnEconomic.Text = "              Economic Calendar";
+            this.btnEconomic.Text = "            Economic Calendar";
             this.btnEconomic.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEconomic.UseVisualStyleBackColor = true;
             this.btnEconomic.Click += new System.EventHandler(this.btnEconomic_Click);
@@ -438,11 +556,11 @@
             this.btnRate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
             this.btnRate.Image = ((System.Drawing.Image)(resources.GetObject("btnRate.Image")));
             this.btnRate.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRate.Location = new System.Drawing.Point(0, 373);
+            this.btnRate.Location = new System.Drawing.Point(0, 295);
             this.btnRate.Name = "btnRate";
             this.btnRate.Size = new System.Drawing.Size(200, 32);
             this.btnRate.TabIndex = 4;
-            this.btnRate.Text = "              Rates";
+            this.btnRate.Text = "            Rates";
             this.btnRate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRate.UseVisualStyleBackColor = true;
             this.btnRate.Click += new System.EventHandler(this.btnRate_Click);
@@ -459,11 +577,11 @@
             this.btnRealTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
             this.btnRealTime.Image = ((System.Drawing.Image)(resources.GetObject("btnRealTime.Image")));
             this.btnRealTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRealTime.Location = new System.Drawing.Point(0, 331);
+            this.btnRealTime.Location = new System.Drawing.Point(0, 253);
             this.btnRealTime.Name = "btnRealTime";
             this.btnRealTime.Size = new System.Drawing.Size(200, 32);
             this.btnRealTime.TabIndex = 3;
-            this.btnRealTime.Text = "              Real Time News";
+            this.btnRealTime.Text = "            Real Time News";
             this.btnRealTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRealTime.UseVisualStyleBackColor = true;
             this.btnRealTime.Click += new System.EventHandler(this.btnRealTime_Click);
@@ -484,7 +602,7 @@
             this.btnMarket.Name = "btnMarket";
             this.btnMarket.Size = new System.Drawing.Size(200, 32);
             this.btnMarket.TabIndex = 2;
-            this.btnMarket.Text = "              Market News";
+            this.btnMarket.Text = "            Market News";
             this.btnMarket.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMarket.UseVisualStyleBackColor = true;
             this.btnMarket.Click += new System.EventHandler(this.btnMarket_Click);
@@ -505,7 +623,7 @@
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Size = new System.Drawing.Size(200, 32);
             this.btnDashboard.TabIndex = 1;
-            this.btnDashboard.Text = "              Dashboard";
+            this.btnDashboard.Text = "            Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.UseVisualStyleBackColor = true;
             // 
@@ -529,47 +647,11 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 32);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 32);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "              Market Overview";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(36)))), ((int)(((byte)(38)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(148)))), ((int)(((byte)(155)))));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 32);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "              Market Outlook";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(685, 749);
+            this.ClientSize = new System.Drawing.Size(689, 749);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.aside);
             this.Name = "Form1";
@@ -578,7 +660,9 @@
             this.aside.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.btnPanelEconomic.ResumeLayout(false);
             this.btnPanelRate.ResumeLayout(false);
+            this.btnPanelRealTime.ResumeLayout(false);
             this.btnPanelMarket.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -629,6 +713,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
     }
 }
 

@@ -47,7 +47,7 @@ namespace Aside
 
             if (this.btnPanelRealTimeState)
             {
-                this.btnPanelRealTime.Height = 99;
+                this.btnPanelRealTime.Height = 66;
             }
             else
             {
@@ -56,7 +56,7 @@ namespace Aside
 
             if (this.btnPanelRateState)
             {
-                this.btnPanelRate.Height = 99;
+                this.btnPanelRate.Height = 66;
             }
             else
             {
@@ -65,7 +65,7 @@ namespace Aside
 
             if (this.btnPanelEconomicState)
             {
-                this.btnPanelEconomic.Height = 99;
+                this.btnPanelEconomic.Height = 66;
             }
             else
             {
